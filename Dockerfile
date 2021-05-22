@@ -17,5 +17,6 @@ RUN rm -rf ./*
 COPY --from=builder /app/dist/angular-nginx-docker /usr/share/nginx/html
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80 8080
 # Containers run nginx with global directives and daemon off
 ENTRYPOINT ["nginx", "-g", "daemon off;"]

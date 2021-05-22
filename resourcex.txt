@@ -1,2 +1,4 @@
 https://www.barrydobson.com/post/react-router-nginx/
 https://www.digitalocean.com/community/tutorials/understanding-nginx-http-proxying-load-balancing-buffering-and-caching
+https://www.journaldev.com/27234/nginx-reverse-proxy-node-angular
+https://spencerfeng.medium.com/setup-reverse-proxy-for-api-calls-for-your-angular-application-with-node-js-62321f0defb5
